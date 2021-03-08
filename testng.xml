@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Surefire suite">
+	<test thread-count="1" verbose="0" name="Surefire test">
+		<method-selectors>
+			<method-selector>
+				<selector-class
+					name="org.apache.maven.surefire.testng.utils.MethodSelector"
+					priority="10000" />
+			</method-selector>
+		</method-selectors>
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test> <!-- Surefire test -->
+</suite> <!-- Surefire suite -->	
