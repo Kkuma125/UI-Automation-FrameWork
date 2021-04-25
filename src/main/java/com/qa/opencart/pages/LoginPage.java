@@ -1,4 +1,4 @@
-package com.qa.opencart.pages;
+	package com.qa.opencart.pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;

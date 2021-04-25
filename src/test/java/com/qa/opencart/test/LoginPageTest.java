@@ -34,7 +34,7 @@ public class LoginPageTest extends BaseTest{
 		Assert.assertTrue(loginPage.isForgotPwdLinkExist());
 	}
 	
-	@Test	
+	@Test
 	@Description("login test ...")
 	@Severity(SeverityLevel.BLOCKER)
 	public void loginTest() {
